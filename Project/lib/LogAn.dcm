@@ -1,0 +1,473 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_100n_0402_16V
+D CAP X7R 16V 0402 100nF
+$ENDCMP
+#
+$CMP C_100u_1206_6V3
+D CAP X5R  6,3V 1206 100uF
+$ENDCMP
+#
+$CMP C_10n_0402_16V
+D CAP X7R 16V 0402 10nF
+$ENDCMP
+#
+$CMP C_10u_0603_10V
+D CAP X7R 10V 0603 10uF
+$ENDCMP
+#
+$CMP C_1n8_0402_10V
+D CAP X7R 10V 0402 1,8nF
+$ENDCMP
+#
+$CMP C_1n_0402_16V
+D CAP X7R 16V 0402 1nF
+$ENDCMP
+#
+$CMP C_1u_0603_10V
+D CAP X7R 10V 0603 1uF
+$ENDCMP
+#
+$CMP C_22u_0603_6V3
+D CAP X5R 6,3V 0603 22uF
+$ENDCMP
+#
+$CMP C_27p_0402_16V
+D CAP X7R 16V 0402 27p
+$ENDCMP
+#
+$CMP C_2n7_0402_10V
+D CAP X7R 10V 0402 2,7nF
+$ENDCMP
+#
+$CMP C_470n_0402_6V3
+D CAP X7R 6,3V 0402 470nF
+$ENDCMP
+#
+$CMP C_470n_0603_16V
+D CAP X7R 16V 0603 470nF
+$ENDCMP
+#
+$CMP C_47n_0402_16V
+D CAP X7R 16V 0402 47nF
+$ENDCMP
+#
+$CMP C_47u_0603_6V3
+D CAP X5R 6,3V 0603 47uF
+$ENDCMP
+#
+$CMP C_4n7_0402_16V
+D CAP X7R 16V 0402 4,7nF
+$ENDCMP
+#
+$CMP C_4u7_0402_6V3
+D CAP X5R 6,3V 0402 4,7uF
+$ENDCMP
+#
+$CMP C_5n6_0402_10V
+D CAP X7R 10V 0402 5,6nF
+$ENDCMP
+#
+$CMP D_BAT54C_SOT323
+D Dual schottky barrier diode, common cathode, SOT-323a
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
+$CMP D_NSQA6V8AW5T2_SOT23
+D 40V 0.2A Dual Small Signal Schottky Diodes
+K Schottky, Diode
+$ENDCMP
+#
+$CMP FB_600R_100MHz_0,5A
+D IND FERRITE 600R 100MHZ 0,5A
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP F_Polyfuse_1A_1206
+D Resettable fuse, polymeric positive temperature coefficient
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
+$ENDCMP
+#
+$CMP GND_PCB
+D GND_PCB
+$ENDCMP
+#
+$CMP IC_93LC56BT-1OT
+D Serial EEPROM, 93 Series, 2.5V, SOT-23-6
+K EEPROM memory Microwire
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP IC_ADP2164
+D 4A DC-to-DC Switching Regulator
+K voltage regulator switching inverter
+$ENDCMP
+#
+$CMP IC_ADP5052_LFCSP48
+D 5CH BUCK REG
+$ENDCMP
+#
+$CMP IC_ASEM1_100MHZ_3.2_2.5
+D 100MHz
+$ENDCMP
+#
+$CMP IC_CP2102N-A01_GQFN28
+D USB to UART master bridge, QFN-28
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP IC_FT232H_QFN48
+D Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48
+K FTDI USB Single UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
+$ENDCMP
+#
+$CMP IC_MAX5417
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+$ENDCMP
+#
+$CMP IC_MT41K128M16JT-125K_FBGA96
+D DDR3 Memory
+$ENDCMP
+#
+$CMP IC_S25FL064L-ABNFI040_WSON8
+D 32-Mbit, 3.3V , SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, WSON-8
+K SPI DSPI QSPI 32 Mbit 3.3V
+$ENDCMP
+#
+$CMP IC_SN74AVC8T245PW_TSSOP_24
+D 8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-24
+K Noninverting Bidirectional
+F https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf
+$ENDCMP
+#
+$CMP IC_TPD2E001DZD
+D 2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3
+K ESD protection USB 3.0
+$ENDCMP
+#
+$CMP IC_TPD3E001DRLR_SOT543
+D TPD3E001 Low-Capacitance 3-Channel ESD-Protection for High-Speed Data Interfaces
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
+$ENDCMP
+#
+$CMP IC_XC7A15T_FTG256
+D Artix 7 T 15 XC7A15T-FTG256
+K FPGA
+$ENDCMP
+#
+$CMP J_04
+D JMP
+$ENDCMP
+#
+$CMP J_Conn_01x06_Male_2_54
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_01x20_2.5_Male
+D Generic connector, single row,1x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_02x20_2.5
+D Generic connector, single row,2x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_02x20_2.5_M_SMD_HOR
+D Generic connector, single row,2x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_02x20_2.5_Male
+D Generic connector, single row,2x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_02x20_2.5_Male2
+D Generic connector, single row,2x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_Conn_02x20_2.5_Male_copy
+D Generic connector, single row,2x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP J_USB_B_Micro_10103594
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP J_USB_C_Receptacle_USB2.0
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+$ENDCMP
+#
+$CMP Jumper_NC_Dual
+D Dual jumper, normally closed
+K jumper bridge link NC
+F ~
+$ENDCMP
+#
+$CMP LED_Green_0603
+D LED GREEN 0603
+K LED
+$ENDCMP
+#
+$CMP L_1u_4x4mm
+D IND FERRITE 1uH
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_2u2_4x4mm
+D IND FERRITE 2,2uH
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_3u3_4x4mm
+D IND FERRITE 3,3uH
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_4u7_4x4mm
+D IND FERRITE 4,7uH
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP MH_M2_5_WOut_Ring
+D Mount hole M2_5
+$ENDCMP
+#
+$CMP MH_M2_5_copy
+D Mount hole M2
+$ENDCMP
+#
+$CMP MH_M2_W_Spacer_3mm
+D Mount hole M2
+$ENDCMP
+#
+$CMP Q_FDS6890A_SOIC8
+D 7.5A Id, 20V Vds, Dual N-Channel MOSFET, 13mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/FD/FDS6890A.pdf
+$ENDCMP
+#
+$CMP R_0_0402
+D REZ 0402 0 OHM
+$ENDCMP
+#
+$CMP R_100r_0402_5%
+D REZ 5% 0402 100OHM
+$ENDCMP
+#
+$CMP R_10k2_0402_1%
+D REZ 1% 0402 10,2KOHM
+$ENDCMP
+#
+$CMP R_10k5_0402_1%
+D REZ 1% 0402 10,5KOHM
+$ENDCMP
+#
+$CMP R_10k_0402_1%
+D REZ 1% 0402 10KOHM
+$ENDCMP
+#
+$CMP R_10k_0402_5%
+D REZ 5% 0402 10KOHM
+$ENDCMP
+#
+$CMP R_10r_0603_5%
+D REZ 5% 0402 10OHM
+$ENDCMP
+#
+$CMP R_11k5_0402_1%
+D REZ 1% 0402 11,5KOHM
+$ENDCMP
+#
+$CMP R_12k7_0402_1%
+D REZ 1% 0402 12,7KOHM
+$ENDCMP
+#
+$CMP R_12k_0402_1%
+D REZ 1% 0402 12KOHM
+$ENDCMP
+#
+$CMP R_15k_0402_1%
+D REZ 1% 0402 15KOHM
+$ENDCMP
+#
+$CMP R_1M_0603_5%
+D REZ 5% 0603 1MOHM
+$ENDCMP
+#
+$CMP R_1k8_0402_5%
+D REZ 5% 0402 1,8KOHM
+$ENDCMP
+#
+$CMP R_1k91_0402_1%
+D REZ 1% 0402 1,91KOHM
+$ENDCMP
+#
+$CMP R_1k_0402_1%
+D REZ 1% 0402 1KOHM
+$ENDCMP
+#
+$CMP R_1k_0402_5%
+D REZ 5% 0402 1KOHM
+$ENDCMP
+#
+$CMP R_200k_0402_5%
+D REZ 5% 0402 200KOHM
+$ENDCMP
+#
+$CMP R_200r_0402_5%
+D REZ 5% 0402 200OHM
+$ENDCMP
+#
+$CMP R_240r_0402_1%
+D REZ 1% 0402 240OHM
+$ENDCMP
+#
+$CMP R_240r_0402_5%
+D REZ 5% 0402 240OHM
+$ENDCMP
+#
+$CMP R_24k_0402_5%
+D REZ 5% 0402 24KOHM
+$ENDCMP
+#
+$CMP R_270r_0402_1%
+D REZ 1% 0402 270OHM
+$ENDCMP
+#
+$CMP R_27k_0402_5%
+D REZ 5% 0402 27KOHM
+$ENDCMP
+#
+$CMP R_2k_0402_5%
+D REZ 5% 0402 10KOHM
+$ENDCMP
+#
+$CMP R_301k_0402_1%
+D REZ 1% 0402 301KOHM
+$ENDCMP
+#
+$CMP R_31k6_0402_1%
+D REZ 1% 0402 31,6KOHM
+$ENDCMP
+#
+$CMP R_330r_0402_5%
+D REZ 5% 0402 330OHM
+$ENDCMP
+#
+$CMP R_402k_0402_1%
+D REZ 1% 0402 402KOHM
+$ENDCMP
+#
+$CMP R_41k2_0402_1%
+D REZ 1% 0402 41,2KOHM
+$ENDCMP
+#
+$CMP R_47k_0402_5%
+D REZ 5% 0402 47KOHM
+$ENDCMP
+#
+$CMP R_49r9_0402_1%
+D REZ 1% 0402 49.9OHM
+$ENDCMP
+#
+$CMP R_4X_220R_5%
+D REZ 4X 220OHM
+$ENDCMP
+#
+$CMP R_4k64_0402_1%
+D REZ 1% 0402 4,64KOHM
+$ENDCMP
+#
+$CMP R_4k7_0402_1%
+D REZ 1% 0402 4,7KOHM
+$ENDCMP
+#
+$CMP R_4k7_0402_5%
+D REZ 5% 0402 4,7KOHM
+$ENDCMP
+#
+$CMP R_4k99_0402_1%
+D REZ 1% 0402 4,99KOHM
+$ENDCMP
+#
+$CMP R_56k2_0402_1%
+D REZ 1% 0402 56,2KOHM
+$ENDCMP
+#
+$CMP R_5k1_0402_1%
+D REZ 5% 0402 5.1KOHM
+$ENDCMP
+#
+$CMP R_7k15_0402_1%
+D REZ 1% 0402 7,15KOHM
+$ENDCMP
+#
+$CMP R_7k68_0402_1%
+D REZ 1% 0402 7,68KOHM
+$ENDCMP
+#
+$CMP R_7k87_0402_1%
+D REZ 1% 0402 7,87KOHM
+$ENDCMP
+#
+$CMP R_80r6_0402_1%
+D REZ 1% 0402 80.6OHM
+$ENDCMP
+#
+$CMP R_82k_0402_5%
+D REZ 5% 0402 82KOHM
+$ENDCMP
+#
+$CMP R_9k31_0402_1%
+D REZ 1% 0402 9,31KOHM
+$ENDCMP
+#
+$CMP R_9k53_0402_1%
+D REZ 1% 0402 9,53KOHM
+$ENDCMP
+#
+$CMP SW_B3U-1000PM-B
+D MEC 5G single pole normally-open tactile switch
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP X_Crystal_12MHz_3_2x2_5
+D Three pin crystal, GND on pin 2
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+#End Doc Library

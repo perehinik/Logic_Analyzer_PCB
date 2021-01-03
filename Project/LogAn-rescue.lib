@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MH_M2_5-LogAn-LogAn-rescue
+#
+DEF MH_M2_5-LogAn-LogAn-rescue J 0 20 N N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "MH_M2_5-LogAn-LogAn-rescue" 200 0 50 H I C CNN
+F2 "LogAn:MH_2_5_mm" 250 -25 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+$FPLIST
+ TO?263*TabPin2*
+$ENDFPLIST
+DRAW
+C -25 0 25 0 1 0 N
+X 1 1 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

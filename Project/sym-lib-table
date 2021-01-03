@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LogAn)(type Legacy)(uri ${KIPRJMOD}/lib/LogAn.lib)(options "")(descr ""))
+  (lib (name LogAn-rescue)(type Legacy)(uri ${KIPRJMOD}/LogAn-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-FTG256 U3
+U 3 1 5E2D7CA1
+P 3400 3500
+F 0 "U3" H 2120 3598 50  0000 R CNN
+F 1 "XC7A15T-FTG256" H 2120 3507 50  0000 R CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 2120 3416 50  0000 R CNN
+F 3 "" H 3400 3500 50  0000 C CNN
+	3    3400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-FTG256 U3
+U 4 1 5E2E0AF8
+P 8600 3550
+F 0 "U3" H 8600 5207 50  0000 C CNN
+F 1 "XC7A15T-FTG256" H 8600 5116 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 8600 5025 50  0000 C CNN
+F 3 "" H 8600 3550 50  0000 C CNN
+	4    8600 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

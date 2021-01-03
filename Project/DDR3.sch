@@ -1,0 +1,1086 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3875 6025 0    50   ~ 0
+GND
+Text HLabel 3300 1950 0    50   BiDi ~ 0
+GND
+Text HLabel 3300 1350 0    50   Input ~ 0
+DDR1V5
+Text HLabel 3800 5025 0    50   Input ~ 0
+DDR3_nRAS
+Text HLabel 3800 5125 0    50   Input ~ 0
+DDR3_nCAS
+Text HLabel 3800 5225 0    50   Input ~ 0
+DDR3_nWE
+Text HLabel 4000 2400 0    50   Input ~ 0
+DDR3_A[0..14]
+Wire Bus Line
+	4375 2400 4000 2400
+Entry Wire Line
+	4375 2425 4475 2525
+Entry Wire Line
+	4375 2625 4475 2725
+Entry Wire Line
+	4375 2525 4475 2625
+Entry Wire Line
+	4375 2725 4475 2825
+Entry Wire Line
+	4375 2825 4475 2925
+Entry Wire Line
+	4375 2925 4475 3025
+Entry Wire Line
+	4375 3025 4475 3125
+Entry Wire Line
+	4375 3125 4475 3225
+Entry Wire Line
+	4375 3225 4475 3325
+Entry Wire Line
+	4375 3325 4475 3425
+Entry Wire Line
+	4375 3425 4475 3525
+Entry Wire Line
+	4375 3525 4475 3625
+Entry Wire Line
+	4375 3625 4475 3725
+Entry Wire Line
+	4375 3725 4475 3825
+Entry Wire Line
+	4375 3825 4475 3925
+$Comp
+L LogAn:C_10n_0402_16V C320
+U 1 1 5E924208
+P 4925 1475
+F 0 "C320" V 4904 1553 50  0000 L CNN
+F 1 "C_10n_0402_16V" H 4950 1385 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 4950 1560 50  0001 C CNN
+F 3 "" H 4950 1560 50  0001 C CNN
+F 4 "10n" V 4995 1553 50  0000 L CNN "Value"
+	1    4925 1475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5175 3125 4475 3125
+Wire Wire Line
+	4475 2525 5175 2525
+Wire Wire Line
+	5175 2625 4475 2625
+Wire Wire Line
+	7575 5175 7800 5175
+Wire Wire Line
+	5175 3325 4475 3325
+Wire Wire Line
+	4475 2825 5175 2825
+Wire Wire Line
+	4475 3025 5175 3025
+Wire Wire Line
+	4475 3225 5175 3225
+Wire Wire Line
+	5175 3525 4475 3525
+Wire Wire Line
+	5175 3825 4475 3825
+Wire Wire Line
+	4475 3725 5175 3725
+Wire Wire Line
+	4475 3425 5175 3425
+Wire Wire Line
+	3825 4225 5175 4225
+Wire Wire Line
+	5175 2725 4475 2725
+Wire Wire Line
+	4475 3925 5175 3925
+Wire Wire Line
+	4475 3625 5175 3625
+Wire Wire Line
+	5175 2175 4925 2175
+Wire Wire Line
+	5175 4325 3825 4325
+Wire Wire Line
+	5175 4125 3825 4125
+$Comp
+L LogAn:R_240r_0402_1% R305
+U 1 1 5E914786
+P 7700 5500
+F 0 "R305" H 7650 5575 50  0000 C CNN
+F 1 "R_240r_0402_1%" H 7725 5410 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 7600 5585 50  0001 C CNN
+F 3 "" H 7725 5585 50  0001 C CNN
+F 4 "240" H 7850 5575 50  0000 C CNN "Value"
+	1    7700 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5175 2925 4475 2925
+Wire Wire Line
+	7575 4875 8525 4875
+Wire Wire Line
+	5175 2275 5175 2175
+Wire Wire Line
+	8525 4275 7575 4275
+Wire Wire Line
+	8525 4175 7575 4175
+Wire Wire Line
+	8525 4525 7575 4525
+Wire Wire Line
+	8525 4625 7575 4625
+Wire Wire Line
+	8525 3975 7575 3975
+Wire Wire Line
+	8525 4075 7575 4075
+Text Label 3325 1350 0    50   ~ 0
+DDR1V5
+Wire Wire Line
+	7325 1350 7225 1350
+Wire Wire Line
+	4925 1425 4925 1350
+Connection ~ 4925 1350
+Wire Wire Line
+	4925 1350 4025 1350
+$Comp
+L LogAn:R_1k_0402_1% R302
+U 1 1 5E955FDA
+P 4025 1500
+F 0 "R302" V 4125 1350 50  0000 C CNN
+F 1 "R_1k_0402_1%" H 4050 1410 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 3925 1585 50  0001 C CNN
+F 3 "" H 4050 1585 50  0001 C CNN
+F 4 "1k" V 4050 1400 50  0000 C CNN "Value"
+	1    4025 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4025 1350
+Wire Wire Line
+	4025 1350 3300 1350
+$Comp
+L LogAn:R_1k_0402_1% R303
+U 1 1 5E9592CB
+P 4025 1800
+F 0 "R303" V 3950 1850 50  0000 L CNN
+F 1 "R_1k_0402_1%" H 4050 1710 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 3925 1885 50  0001 C CNN
+F 3 "" H 4050 1885 50  0001 C CNN
+F 4 "1k" V 4025 1850 50  0000 L CNN "Value"
+	1    4025 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 4025 1650
+Connection ~ 4925 1650
+Wire Wire Line
+	4925 1650 4925 1575
+Wire Wire Line
+	4925 2175 4925 1650
+Wire Wire Line
+	3300 1950 4025 1950
+Connection ~ 4025 1950
+$Comp
+L LogAn:C_10n_0402_16V C319
+U 1 1 5E968CC4
+P 4675 1800
+F 0 "C319" V 4625 1825 50  0000 L CNN
+F 1 "C_10n_0402_16V" H 4700 1710 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 4700 1885 50  0001 C CNN
+F 3 "" H 4700 1885 50  0001 C CNN
+F 4 "10n" V 4750 1850 50  0000 L CNN "Value"
+	1    4675 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_1u_0603_10V C318
+U 1 1 5E96992B
+P 4350 1800
+F 0 "C318" V 4329 1878 50  0000 L CNN
+F 1 "C_1u_0603_10V" H 4375 1710 50  0001 C CNN
+F 2 "LogAn:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4375 1885 50  0001 C CNN
+F 3 "" H 4375 1885 50  0001 C CNN
+F 4 "1u" V 4420 1878 50  0000 L CNN "Value"
+	1    4350 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4675 1950 4675 1900
+Wire Wire Line
+	4025 1950 4350 1950
+Wire Wire Line
+	4675 1750 4675 1650
+Wire Wire Line
+	4025 1650 4350 1650
+Connection ~ 4675 1650
+Wire Wire Line
+	4675 1650 4925 1650
+Wire Wire Line
+	4350 1750 4350 1650
+Connection ~ 4350 1650
+Wire Wire Line
+	4350 1650 4675 1650
+Wire Wire Line
+	4350 1900 4350 1950
+Connection ~ 4350 1950
+Wire Wire Line
+	4350 1950 4675 1950
+Text Label 3325 1950 0    50   ~ 0
+GND
+Wire Wire Line
+	7325 1350 7325 1675
+Wire Wire Line
+	7225 1675 7225 1350
+Connection ~ 7225 1350
+Wire Wire Line
+	7225 1350 7125 1350
+Wire Wire Line
+	7125 1675 7125 1350
+Connection ~ 7125 1350
+Wire Wire Line
+	7125 1350 7025 1350
+Wire Wire Line
+	7025 1675 7025 1350
+Connection ~ 7025 1350
+Wire Wire Line
+	7025 1350 6925 1350
+Wire Wire Line
+	6925 1675 6925 1350
+Connection ~ 6925 1350
+Wire Wire Line
+	6925 1350 6825 1350
+Wire Wire Line
+	6825 1675 6825 1350
+Connection ~ 6825 1350
+Wire Wire Line
+	6825 1350 6725 1350
+Wire Wire Line
+	6725 1675 6725 1350
+Connection ~ 6725 1350
+Wire Wire Line
+	6725 1350 6625 1350
+Wire Wire Line
+	6625 1675 6625 1350
+Connection ~ 6625 1350
+Wire Wire Line
+	6625 1350 6525 1350
+Wire Wire Line
+	6525 1675 6525 1350
+Connection ~ 6525 1350
+Wire Wire Line
+	6525 1350 6225 1350
+Wire Wire Line
+	6225 1675 6225 1350
+Connection ~ 6225 1350
+Wire Wire Line
+	6225 1350 6125 1350
+Wire Wire Line
+	6125 1675 6125 1350
+Connection ~ 6125 1350
+Wire Wire Line
+	6125 1350 6025 1350
+Wire Wire Line
+	6025 1675 6025 1350
+Connection ~ 6025 1350
+Wire Wire Line
+	6025 1350 5925 1350
+Wire Wire Line
+	5925 1675 5925 1350
+Connection ~ 5925 1350
+Wire Wire Line
+	5925 1350 5825 1350
+Wire Wire Line
+	5825 1675 5825 1350
+Connection ~ 5825 1350
+Wire Wire Line
+	5725 1675 5725 1350
+Wire Wire Line
+	4925 1350 5425 1350
+Connection ~ 5725 1350
+Wire Wire Line
+	5725 1350 5825 1350
+Wire Wire Line
+	5625 1675 5625 1350
+Connection ~ 5625 1350
+Wire Wire Line
+	5625 1350 5725 1350
+Wire Wire Line
+	5525 1675 5525 1350
+Connection ~ 5525 1350
+Wire Wire Line
+	5525 1350 5625 1350
+Wire Wire Line
+	5425 1675 5425 1350
+Connection ~ 5425 1350
+Wire Wire Line
+	5425 1350 5525 1350
+Text HLabel 2800 4625 0    50   Input ~ 0
+DDR3_CK_N
+Text HLabel 2825 4225 0    50   Input ~ 0
+DDR3_CK_P
+Text HLabel 3825 4725 0    50   Input ~ 0
+DDR3_CKE
+Wire Wire Line
+	3825 4725 5175 4725
+Wire Wire Line
+	5175 4625 2925 4625
+Wire Wire Line
+	3250 4525 5175 4525
+Wire Wire Line
+	3250 4525 3250 4225
+Wire Wire Line
+	3250 4225 2925 4225
+$Comp
+L LogAn:R_80r6_0402_1% R301
+U 1 1 5EA4F618
+P 2925 4425
+F 0 "R301" V 2879 4502 50  0000 L CNN
+F 1 "R_80r6_0402_1%" H 2950 4335 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 2825 4510 50  0001 C CNN
+F 3 "" H 2950 4510 50  0001 C CNN
+F 4 "120R" V 2970 4502 50  0000 L CNN "Value"
+	1    2925 4425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2925 4275 2925 4225
+Connection ~ 2925 4225
+Wire Wire Line
+	2925 4225 2825 4225
+Wire Wire Line
+	2925 4575 2925 4625
+Connection ~ 2925 4625
+Wire Wire Line
+	2925 4625 2800 4625
+Wire Wire Line
+	3800 5025 5175 5025
+Wire Wire Line
+	5175 5125 3800 5125
+Wire Wire Line
+	3800 5225 5175 5225
+$Comp
+L LogAn:R_1k_0402_5% R304
+U 1 1 5EA8F85A
+P 5075 5475
+F 0 "R304" V 5025 5250 50  0000 L CNN
+F 1 "R_1k_0402_5%" H 5100 5385 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 4975 5560 50  0001 C CNN
+F 3 "" H 5100 5560 50  0001 C CNN
+F 4 "1k" V 5100 5250 50  0000 L CNN "Value"
+	1    5075 5475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5175 4925 5075 4925
+Wire Wire Line
+	5075 4925 5075 5325
+Text Label 4600 2525 0    50   ~ 0
+DDR3_A14
+Text Label 4600 2625 0    50   ~ 0
+DDR3_A13
+Text Label 4600 2725 0    50   ~ 0
+DDR3_A12
+Text Label 4600 2825 0    50   ~ 0
+DDR3_A11
+Text Label 4600 2925 0    50   ~ 0
+DDR3_A10
+Text Label 4600 3025 0    50   ~ 0
+DDR3_A9
+Text Label 4600 3125 0    50   ~ 0
+DDR3_A8
+Text Label 4600 3225 0    50   ~ 0
+DDR3_A7
+Text Label 4600 3325 0    50   ~ 0
+DDR3_A6
+Text Label 4600 3425 0    50   ~ 0
+DDR3_A5
+Text Label 4600 3525 0    50   ~ 0
+DDR3_A4
+Text Label 4600 3625 0    50   ~ 0
+DDR3_A3
+Text Label 4600 3725 0    50   ~ 0
+DDR3_A2
+Text Label 4600 3825 0    50   ~ 0
+DDR3_A1
+Text Label 4600 3925 0    50   ~ 0
+DDR3_A0
+Wire Wire Line
+	5075 5625 5075 6025
+Connection ~ 5075 6025
+Wire Wire Line
+	5075 6025 3775 6025
+Wire Wire Line
+	5375 5725 5375 6025
+Connection ~ 5375 6025
+Wire Wire Line
+	5375 6025 5075 6025
+Wire Wire Line
+	5475 5725 5475 6025
+Connection ~ 5475 6025
+Wire Wire Line
+	5475 6025 5375 6025
+Wire Wire Line
+	5575 5725 5575 6025
+Connection ~ 5575 6025
+Wire Wire Line
+	5575 6025 5475 6025
+Wire Wire Line
+	5675 5725 5675 6025
+Connection ~ 5675 6025
+Wire Wire Line
+	5675 6025 5575 6025
+Wire Wire Line
+	5775 5725 5775 6025
+Connection ~ 5775 6025
+Wire Wire Line
+	5775 6025 5675 6025
+Wire Wire Line
+	5875 5725 5875 6025
+Connection ~ 5875 6025
+Wire Wire Line
+	5875 6025 5775 6025
+Wire Wire Line
+	5975 5725 5975 6025
+Connection ~ 5975 6025
+Wire Wire Line
+	5975 6025 5875 6025
+Wire Wire Line
+	6075 5725 6075 6025
+Connection ~ 6075 6025
+Wire Wire Line
+	6075 6025 5975 6025
+Wire Wire Line
+	6175 5725 6175 6025
+Connection ~ 6175 6025
+Wire Wire Line
+	6175 6025 6075 6025
+Wire Wire Line
+	6275 5725 6275 6025
+Connection ~ 6275 6025
+Wire Wire Line
+	6275 6025 6175 6025
+Wire Wire Line
+	6375 5725 6375 6025
+Connection ~ 6375 6025
+Wire Wire Line
+	6375 6025 6275 6025
+Connection ~ 6475 6025
+Wire Wire Line
+	6475 6025 6375 6025
+Wire Wire Line
+	6475 5725 6475 6025
+Wire Wire Line
+	6575 5725 6575 6025
+Connection ~ 6575 6025
+Wire Wire Line
+	6575 6025 6475 6025
+Wire Wire Line
+	6675 5725 6675 6025
+Connection ~ 6675 6025
+Wire Wire Line
+	6675 6025 6575 6025
+Wire Wire Line
+	6775 5725 6775 6025
+Connection ~ 6775 6025
+Wire Wire Line
+	6775 6025 6675 6025
+Wire Wire Line
+	6875 5725 6875 6025
+Connection ~ 6875 6025
+Wire Wire Line
+	6875 6025 6775 6025
+Wire Wire Line
+	6975 5725 6975 6025
+Connection ~ 6975 6025
+Wire Wire Line
+	6975 6025 6875 6025
+Wire Wire Line
+	7075 5725 7075 6025
+Wire Wire Line
+	6975 6025 7075 6025
+Connection ~ 7075 6025
+Wire Wire Line
+	7075 6025 7175 6025
+Wire Wire Line
+	7175 5725 7175 6025
+Connection ~ 7175 6025
+Wire Wire Line
+	7175 6025 7275 6025
+Wire Wire Line
+	7275 5725 7275 6025
+Connection ~ 7275 6025
+Wire Wire Line
+	7275 6025 7375 6025
+Wire Wire Line
+	7375 5725 7375 6025
+Connection ~ 7375 6025
+Wire Wire Line
+	7375 6025 7700 6025
+Text HLabel 8525 4075 2    50   Input ~ 0
+DDR3_DQS1_N
+Text HLabel 8525 4175 2    50   Input ~ 0
+DDR3_DQS0_P
+Text HLabel 8525 4275 2    50   Input ~ 0
+DDR3_DQS0_N
+Text HLabel 8525 4625 2    50   Input ~ 0
+DDR3_DM1
+Text HLabel 8525 4525 2    50   Input ~ 0
+DDR3_DM0
+Text HLabel 8525 3975 2    50   Input ~ 0
+DDR3_DQS1_P
+Text HLabel 8500 5175 2    50   Input ~ 0
+DDR3_nRST
+Text HLabel 8525 4875 2    50   Input ~ 0
+DDR3_ODT
+Text HLabel 3825 4125 0    50   Input ~ 0
+DDR3_BA2
+Text HLabel 3825 4225 0    50   Input ~ 0
+DDR3_BA1
+Text HLabel 3825 4325 0    50   Input ~ 0
+DDR3_BA0
+Text Label 7850 2175 0    50   ~ 0
+DDR3_DQ15
+Text Label 7850 2275 0    50   ~ 0
+DDR3_DQ14
+Text Label 7850 2375 0    50   ~ 0
+DDR3_DQ13
+Text Label 7850 2475 0    50   ~ 0
+DDR3_DQ12
+Text Label 7850 2575 0    50   ~ 0
+DDR3_DQ11
+Text Label 7850 2675 0    50   ~ 0
+DDR3_DQ10
+Text Label 7850 2775 0    50   ~ 0
+DDR3_DQ9
+Text Label 7850 2875 0    50   ~ 0
+DDR3_DQ8
+Text Label 7850 2975 0    50   ~ 0
+DDR3_DQ7
+Text Label 7850 3075 0    50   ~ 0
+DDR3_DQ6
+Text Label 7850 3175 0    50   ~ 0
+DDR3_DQ5
+Text Label 7850 3275 0    50   ~ 0
+DDR3_DQ4
+Text Label 7850 3375 0    50   ~ 0
+DDR3_DQ3
+Text Label 7850 3475 0    50   ~ 0
+DDR3_DQ2
+Text Label 7850 3575 0    50   ~ 0
+DDR3_DQ1
+Text Label 7850 3675 0    50   ~ 0
+DDR3_DQ0
+Wire Wire Line
+	7575 2375 8275 2375
+Wire Wire Line
+	7575 2175 8275 2175
+Wire Wire Line
+	7575 2475 8275 2475
+Wire Wire Line
+	8275 2275 7575 2275
+Wire Wire Line
+	8275 2575 7575 2575
+Wire Wire Line
+	8275 2775 7575 2775
+Wire Wire Line
+	7575 2675 8275 2675
+Wire Wire Line
+	8275 2875 7575 2875
+Wire Wire Line
+	8275 3675 7575 3675
+Wire Wire Line
+	8275 3475 7575 3475
+Wire Wire Line
+	7575 3575 8275 3575
+Wire Wire Line
+	7575 3375 8275 3375
+Wire Wire Line
+	8275 3075 7575 3075
+Wire Wire Line
+	8275 3275 7575 3275
+Wire Wire Line
+	7575 2975 8275 2975
+Wire Wire Line
+	7575 3175 8275 3175
+Entry Wire Line
+	8375 2475 8275 2375
+Entry Wire Line
+	8375 2375 8275 2275
+Entry Wire Line
+	8375 2275 8275 2175
+Entry Wire Line
+	8375 2675 8275 2575
+Entry Wire Line
+	8375 2775 8275 2675
+Entry Wire Line
+	8375 2875 8275 2775
+Entry Wire Line
+	8375 2975 8275 2875
+Entry Wire Line
+	8375 3075 8275 2975
+Entry Wire Line
+	8375 3175 8275 3075
+Entry Wire Line
+	8375 3275 8275 3175
+Entry Wire Line
+	8375 3375 8275 3275
+Entry Wire Line
+	8375 3475 8275 3375
+Entry Wire Line
+	8375 3575 8275 3475
+Entry Wire Line
+	8375 3675 8275 3575
+Entry Wire Line
+	8375 3775 8275 3675
+Entry Wire Line
+	8375 2575 8275 2475
+Wire Bus Line
+	8375 2125 8725 2125
+Text HLabel 8725 2125 2    50   BiDi ~ 0
+DDR3_DQ[0..15]
+Text Label 4125 1650 0    50   ~ 0
+DDR_VREF
+$Comp
+L LogAn:C_47n_0402_16V C301
+U 1 1 5E788B13
+P 1450 6350
+F 0 "C301" V 1429 6428 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 1475 6260 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 1475 6435 50  0001 C CNN
+F 3 "" H 1475 6435 50  0001 C CNN
+F 4 "47n" V 1520 6428 50  0000 L CNN "Value"
+	1    1450 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C304
+U 1 1 5E789DEC
+P 1775 6400
+F 0 "C304" V 1846 6322 50  0000 R CNN
+F 1 "C_47n_0402_16V" H 1800 6310 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 1800 6485 50  0001 C CNN
+F 3 "" H 1800 6485 50  0001 C CNN
+F 4 "47n" V 1755 6322 50  0000 R CNN "Value"
+	1    1775 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C306
+U 1 1 5E78AB97
+P 2100 6350
+F 0 "C306" V 2079 6428 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2125 6260 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2125 6435 50  0001 C CNN
+F 3 "" H 2125 6435 50  0001 C CNN
+F 4 "47n" V 2170 6428 50  0000 L CNN "Value"
+	1    2100 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C309
+U 1 1 5E78CA2D
+P 2425 6350
+F 0 "C309" V 2404 6428 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2450 6260 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2450 6435 50  0001 C CNN
+F 3 "" H 2450 6435 50  0001 C CNN
+F 4 "47n" V 2495 6428 50  0000 L CNN "Value"
+	1    2425 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C312
+U 1 1 5E78CA34
+P 2750 6400
+F 0 "C312" V 2821 6322 50  0000 R CNN
+F 1 "C_47n_0402_16V" H 2775 6310 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2775 6485 50  0001 C CNN
+F 3 "" H 2775 6485 50  0001 C CNN
+F 4 "47n" V 2730 6322 50  0000 R CNN "Value"
+	1    2750 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C315
+U 1 1 5E78CA3B
+P 3075 6350
+F 0 "C315" V 3054 6428 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 3100 6260 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 3100 6435 50  0001 C CNN
+F 3 "" H 3100 6435 50  0001 C CNN
+F 4 "47n" V 3145 6428 50  0000 L CNN "Value"
+	1    3075 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C302
+U 1 1 5E7961D2
+P 1450 6850
+F 0 "C302" V 1429 6928 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 1475 6760 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 1475 6935 50  0001 C CNN
+F 3 "" H 1475 6935 50  0001 C CNN
+F 4 "47n" V 1520 6928 50  0000 L CNN "Value"
+	1    1450 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C305
+U 1 1 5E7961D9
+P 1775 6900
+F 0 "C305" V 1846 6822 50  0000 R CNN
+F 1 "C_47n_0402_16V" H 1800 6810 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 1800 6985 50  0001 C CNN
+F 3 "" H 1800 6985 50  0001 C CNN
+F 4 "47n" V 1755 6822 50  0000 R CNN "Value"
+	1    1775 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C307
+U 1 1 5E7961E0
+P 2100 6850
+F 0 "C307" V 2079 6928 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2125 6760 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2125 6935 50  0001 C CNN
+F 3 "" H 2125 6935 50  0001 C CNN
+F 4 "47n" V 2170 6928 50  0000 L CNN "Value"
+	1    2100 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C310
+U 1 1 5E7961E7
+P 2425 6850
+F 0 "C310" V 2404 6928 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2450 6760 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2450 6935 50  0001 C CNN
+F 3 "" H 2450 6935 50  0001 C CNN
+F 4 "47n" V 2495 6928 50  0000 L CNN "Value"
+	1    2425 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C313
+U 1 1 5E7961EE
+P 2750 6900
+F 0 "C313" V 2821 6822 50  0000 R CNN
+F 1 "C_47n_0402_16V" H 2775 6810 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2775 6985 50  0001 C CNN
+F 3 "" H 2775 6985 50  0001 C CNN
+F 4 "47n" V 2730 6822 50  0000 R CNN "Value"
+	1    2750 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C316
+U 1 1 5E7961F5
+P 3075 6850
+F 0 "C316" V 3054 6928 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 3100 6760 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 3100 6935 50  0001 C CNN
+F 3 "" H 3100 6935 50  0001 C CNN
+F 4 "47n" V 3145 6928 50  0000 L CNN "Value"
+	1    3075 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C303
+U 1 1 5E79E63C
+P 1750 7325
+F 0 "C303" V 1729 7403 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 1775 7235 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 1775 7410 50  0001 C CNN
+F 3 "" H 1775 7410 50  0001 C CNN
+F 4 "47n" V 1820 7403 50  0000 L CNN "Value"
+	1    1750 7325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3075 6300 3075 6225
+Wire Wire Line
+	3075 6225 2750 6225
+Wire Wire Line
+	3075 6450 3075 6550
+Wire Wire Line
+	3075 6550 2750 6550
+Wire Wire Line
+	1450 6300 1450 6225
+Connection ~ 1450 6225
+Wire Wire Line
+	1450 6225 1125 6225
+Wire Wire Line
+	1775 6300 1775 6225
+Connection ~ 1775 6225
+Wire Wire Line
+	1775 6225 1450 6225
+Wire Wire Line
+	2100 6300 2100 6225
+Connection ~ 2100 6225
+Wire Wire Line
+	2100 6225 1775 6225
+Wire Wire Line
+	2425 6300 2425 6225
+Connection ~ 2425 6225
+Wire Wire Line
+	2425 6225 2100 6225
+Wire Wire Line
+	2750 6300 2750 6225
+Connection ~ 2750 6225
+Wire Wire Line
+	2750 6225 2425 6225
+Wire Wire Line
+	2750 6450 2750 6550
+Connection ~ 2750 6550
+Wire Wire Line
+	2750 6550 2425 6550
+Wire Wire Line
+	2425 6450 2425 6550
+Connection ~ 2425 6550
+Wire Wire Line
+	2425 6550 2100 6550
+Wire Wire Line
+	2100 6450 2100 6550
+Connection ~ 2100 6550
+Wire Wire Line
+	2100 6550 1775 6550
+Wire Wire Line
+	1775 6450 1775 6550
+Connection ~ 1775 6550
+Wire Wire Line
+	1775 6550 1450 6550
+Wire Wire Line
+	1450 6450 1450 6550
+Connection ~ 1450 6550
+Wire Wire Line
+	1450 6550 1125 6550
+Wire Wire Line
+	3075 6800 3075 6725
+Wire Wire Line
+	3075 6725 2750 6725
+Wire Wire Line
+	3075 6950 3075 7025
+Wire Wire Line
+	3075 7025 2750 7025
+Wire Wire Line
+	1450 6800 1450 6725
+Connection ~ 1450 6725
+Wire Wire Line
+	1450 6725 1125 6725
+Wire Wire Line
+	1775 6800 1775 6725
+Connection ~ 1775 6725
+Wire Wire Line
+	1775 6725 1450 6725
+Wire Wire Line
+	2100 6800 2100 6725
+Connection ~ 2100 6725
+Wire Wire Line
+	2100 6725 1775 6725
+Wire Wire Line
+	2425 6800 2425 6725
+Connection ~ 2425 6725
+Wire Wire Line
+	2425 6725 2100 6725
+Wire Wire Line
+	2750 6800 2750 6725
+Connection ~ 2750 6725
+Wire Wire Line
+	2750 6725 2425 6725
+Wire Wire Line
+	2750 6950 2750 7025
+Connection ~ 2750 7025
+Wire Wire Line
+	2750 7025 2425 7025
+Wire Wire Line
+	2425 6950 2425 7025
+Connection ~ 2425 7025
+Wire Wire Line
+	2425 7025 2100 7025
+Wire Wire Line
+	2100 6950 2100 7025
+Connection ~ 2100 7025
+Wire Wire Line
+	2100 7025 1775 7025
+Wire Wire Line
+	1775 6950 1775 7025
+Connection ~ 1775 7025
+Wire Wire Line
+	1775 7025 1450 7025
+Wire Wire Line
+	1450 6950 1450 7025
+Connection ~ 1450 7025
+Wire Wire Line
+	1450 7025 1125 7025
+Wire Wire Line
+	1750 7425 1750 7500
+Wire Wire Line
+	1750 7500 1125 7500
+Wire Wire Line
+	1750 7275 1750 7200
+Wire Wire Line
+	1750 7200 1125 7200
+Text Label 1175 6550 0    50   ~ 0
+GND
+Text Label 1200 7025 0    50   ~ 0
+GND
+Text Label 1175 7500 0    50   ~ 0
+GND
+Text Label 1125 6225 0    50   ~ 0
+DDR1V5
+Text Label 1125 6725 0    50   ~ 0
+DDR1V5
+Text Label 1150 7200 0    50   ~ 0
+DDR1V5
+$Comp
+L LogAn:R_4k7_0402_5% R306
+U 1 1 5EA1E2E3
+P 7800 5500
+F 0 "R306" V 7754 5577 50  0000 L CNN
+F 1 "R_4k7_0402_5%" H 7825 5410 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 7700 5585 50  0001 C CNN
+F 3 "" H 7825 5585 50  0001 C CNN
+F 4 "4k7" V 7845 5577 50  0000 L CNN "Value"
+	1    7800 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 5350 7800 5175
+Connection ~ 7800 5175
+Wire Wire Line
+	7800 5175 8500 5175
+Wire Wire Line
+	7575 5075 7700 5075
+Wire Wire Line
+	7700 5075 7700 5350
+Wire Wire Line
+	7800 5650 7800 6025
+Connection ~ 7800 6025
+Wire Wire Line
+	7800 6025 7875 6025
+Wire Wire Line
+	7700 5650 7700 6025
+Connection ~ 7700 6025
+Wire Wire Line
+	7700 6025 7800 6025
+Connection ~ 1750 7200
+Connection ~ 1750 7500
+Wire Wire Line
+	1750 7500 2100 7500
+Wire Wire Line
+	1750 7200 2100 7200
+Connection ~ 2100 7200
+Wire Wire Line
+	2100 7275 2100 7200
+Wire Wire Line
+	2425 7200 2100 7200
+Connection ~ 2425 7200
+Wire Wire Line
+	2425 7275 2425 7200
+Wire Wire Line
+	2750 7200 2425 7200
+Connection ~ 2750 7200
+Wire Wire Line
+	2750 7275 2750 7200
+Wire Wire Line
+	2750 7500 2425 7500
+Connection ~ 2750 7500
+Wire Wire Line
+	2750 7425 2750 7500
+Wire Wire Line
+	2425 7500 2100 7500
+Connection ~ 2425 7500
+Wire Wire Line
+	2425 7425 2425 7500
+Connection ~ 2100 7500
+Wire Wire Line
+	2100 7425 2100 7500
+Wire Wire Line
+	3075 7500 2750 7500
+Wire Wire Line
+	3075 7425 3075 7500
+Wire Wire Line
+	3075 7200 2750 7200
+Wire Wire Line
+	3075 7275 3075 7200
+$Comp
+L LogAn:C_47n_0402_16V C317
+U 1 1 5E79E65F
+P 3075 7325
+F 0 "C317" V 3054 7403 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 3100 7235 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 3100 7410 50  0001 C CNN
+F 3 "" H 3100 7410 50  0001 C CNN
+F 4 "47n" V 3145 7403 50  0000 L CNN "Value"
+	1    3075 7325
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C314
+U 1 1 5E79E658
+P 2750 7375
+F 0 "C314" V 2821 7297 50  0000 R CNN
+F 1 "C_47n_0402_16V" H 2775 7285 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2775 7460 50  0001 C CNN
+F 3 "" H 2775 7460 50  0001 C CNN
+F 4 "47n" V 2730 7297 50  0000 R CNN "Value"
+	1    2750 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C311
+U 1 1 5E79E651
+P 2425 7325
+F 0 "C311" V 2404 7403 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2450 7235 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2450 7410 50  0001 C CNN
+F 3 "" H 2450 7410 50  0001 C CNN
+F 4 "47n" V 2495 7403 50  0000 L CNN "Value"
+	1    2425 7325
+	0    1    1    0   
+$EndComp
+$Comp
+L LogAn:C_47n_0402_16V C308
+U 1 1 5E79E64A
+P 2100 7325
+F 0 "C308" V 2079 7403 50  0000 L CNN
+F 1 "C_47n_0402_16V" H 2125 7235 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 2125 7410 50  0001 C CNN
+F 3 "" H 2125 7410 50  0001 C CNN
+F 4 "47n" V 2170 7403 50  0000 L CNN "Value"
+	1    2100 7325
+	0    1    1    0   
+$EndComp
+Connection ~ 5175 2175
+$Comp
+L LogAn:IC_MT41K128M16JT-125K_FBGA96 IC301
+U 1 1 5E3FA1C2
+P 6375 3575
+F 0 "IC301" H 6425 3450 50  0000 C CNN
+F 1 "IC_MT41K128M16JT-125K_FBGA96" H 6375 3525 50  0001 C CNN
+F 2 "LogAn:FBGA96_C80P9X16_800X1400X120" H 6375 3375 50  0001 C CNN
+F 3 "" H 6375 3675 50  0001 C CNN
+F 4 "MT41K256M16JT" H 6425 3325 50  0000 C CNN "Value"
+	1    6375 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogAn:TestPoint TP301
+U 1 1 5EA89B03
+P 4675 1650
+F 0 "TP301" H 4575 1850 50  0000 L CNN
+F 1 "TestPoint" H 4675 1850 50  0001 C CNN
+F 2 "LogAn:TestPoint_Pad_D1.0mm" H 4875 1650 50  0001 C CNN
+F 3 "~" H 4875 1650 50  0001 C CNN
+	1    4675 1650
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8375 2125 8375 3825
+Wire Bus Line
+	4375 2400 4375 3900
+$EndSCHEMATC

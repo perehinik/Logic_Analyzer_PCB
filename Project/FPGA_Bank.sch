@@ -1,0 +1,966 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LogAn:IC_XC7A15T_FTG256 IC201
+U 1 1 5E3D058E
+P 990 5145
+F 0 "IC201" H 1797 9412 50  0000 C CNN
+F 1 "IC_XC7A15T_FTG256" H 1740 5095 50  0001 C CNN
+F 2 "LogAn:Xilinx_FTG256" H 1390 4995 50  0001 C CNN
+F 3 "" H 1590 5295 50  0001 C CNN
+F 4 "XC7A15T-FTG256" H 1797 9321 50  0000 C CNN "Value"
+	1    990  5145
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogAn:IC_XC7A15T_FTG256 IC201
+U 3 1 5E3E504B
+P 990 7545
+F 0 "IC201" H 1797 9812 50  0000 C CNN
+F 1 "IC_XC7A15T_FTG256" H 1740 7495 50  0001 C CNN
+F 2 "LogAn:Xilinx_FTG256" H 1390 7395 50  0001 C CNN
+F 3 "" H 1590 7695 50  0001 C CNN
+F 4 "XC7A15T-FTG256" H 1797 9721 50  0000 C CNN "Value"
+	3    990  7545
+	1    0    0    -1  
+$EndComp
+Text Label 5710 5020 0    50   ~ 0
+DDR3_A14
+Text Label 5710 3920 0    50   ~ 0
+DDR3_A10
+Text Label 5710 5420 0    50   ~ 0
+DDR3_A9
+Text Label 5710 4920 0    50   ~ 0
+DDR3_A8
+Text Label 5710 5520 0    50   ~ 0
+DDR3_A7
+Text Label 5710 4820 0    50   ~ 0
+DDR3_A6
+Text Label 5710 3620 0    50   ~ 0
+DDR3_A4
+Text Label 5710 4620 0    50   ~ 0
+DDR3_A3
+Text Label 5710 5620 0    50   ~ 0
+DDR3_A2
+Text Label 5710 4320 0    50   ~ 0
+DDR3_A1
+Text Label 5710 5220 0    50   ~ 0
+DDR3_CK_P
+Text Label 5710 5320 0    50   ~ 0
+DDR3_CK_N
+Wire Wire Line
+	6535 3070 7035 3070
+Wire Wire Line
+	6535 2395 7035 2395
+Wire Wire Line
+	6535 2495 7035 2495
+Text Label 6535 2395 0    50   ~ 0
+DDR3_CK_P
+Text Label 6535 2495 0    50   ~ 0
+DDR3_CK_N
+Text HLabel 6885 3620 2    50   BiDi ~ 0
+DDR3_DQ[0..15]
+Text HLabel 7035 2295 2    50   Output ~ 0
+DDR3_CKE
+Text HLabel 7035 2395 2    50   Output ~ 0
+DDR3_CK_P
+Text HLabel 7035 2495 2    50   Output ~ 0
+DDR3_CK_N
+Text HLabel 6835 1120 2    50   Output ~ 0
+DDR3_nRST
+Text HLabel 7035 2795 2    50   Output ~ 0
+DDR3_nRAS
+Text HLabel 7035 2695 2    50   Output ~ 0
+DDR3_nCAS
+Text HLabel 7035 2895 2    50   Output ~ 0
+DDR3_nWE
+Text HLabel 6385 6120 2    50   Output ~ 0
+DDR3_ODT
+Text HLabel 6885 3695 2    50   Output ~ 0
+DDR3_A[0..14]
+Text HLabel 7035 3070 2    50   Output ~ 0
+DDR3_BA2
+Text HLabel 7035 3170 2    50   Output ~ 0
+DDR3_BA1
+Text HLabel 7035 3270 2    50   Output ~ 0
+DDR3_BA0
+Wire Bus Line
+	6385 3620 6885 3620
+Entry Wire Line
+	6285 3520 6385 3620
+Entry Wire Line
+	6285 3220 6385 3320
+Entry Wire Line
+	6285 3120 6385 3220
+Entry Wire Line
+	6285 3020 6385 3120
+Entry Wire Line
+	6285 2520 6385 2620
+Entry Wire Line
+	6285 2220 6385 2320
+Entry Wire Line
+	6285 2020 6385 2120
+Entry Wire Line
+	6285 1320 6385 1420
+Entry Wire Line
+	6285 1520 6385 1620
+Wire Wire Line
+	6535 1670 7110 1670
+Wire Wire Line
+	6535 1770 7110 1770
+Text Label 6535 1670 0    50   ~ 0
+DDR3_DQS1_N
+Text Label 6535 1770 0    50   ~ 0
+DDR3_DQS0_P
+Text Label 6535 1870 0    50   ~ 0
+DDR3_DQS0_N
+Text HLabel 7110 1670 2    50   Output ~ 0
+DDR3_DQS1_N
+Text HLabel 7110 1770 2    50   Output ~ 0
+DDR3_DQS0_P
+Text HLabel 7110 1870 2    50   Output ~ 0
+DDR3_DQS0_N
+Wire Wire Line
+	6535 1370 7110 1370
+Wire Wire Line
+	6535 1470 7110 1470
+Wire Wire Line
+	6535 1570 7110 1570
+Text Label 6535 1370 0    50   ~ 0
+DDR3_DM1
+Text Label 6535 1470 0    50   ~ 0
+DDR3_DM0
+Text Label 6535 1570 0    50   ~ 0
+DDR3_DQS1_P
+Text HLabel 7110 1370 2    50   Output ~ 0
+DDR3_DM1
+Text HLabel 7110 1470 2    50   Output ~ 0
+DDR3_DM0
+Text HLabel 7110 1570 2    50   Output ~ 0
+DDR3_DQS1_P
+Text HLabel 2740 3245 2    50   Input ~ 0
+USB_RST
+Text HLabel 3340 1770 2    50   Input ~ 0
+FT_DATA[0..7]
+Text HLabel 3340 2920 2    50   Input ~ 0
+FT_CONF[0..6]
+Wire Wire Line
+	2740 3245 2590 3245
+Wire Bus Line
+	3340 1770 3215 1770
+Wire Bus Line
+	3340 2920 3215 2920
+Entry Wire Line
+	3115 4345 3215 4445
+Entry Wire Line
+	3115 4645 3215 4745
+Entry Wire Line
+	3115 4745 3215 4845
+Entry Wire Line
+	3115 4845 3215 4945
+Entry Wire Line
+	3115 4945 3215 5045
+Entry Wire Line
+	3115 2945 3215 3045
+Entry Wire Line
+	3115 4245 3215 4345
+Entry Wire Line
+	3115 2245 3215 2345
+Entry Wire Line
+	3115 1845 3215 1945
+Entry Wire Line
+	3115 1945 3215 2045
+Entry Wire Line
+	3115 2045 3215 2145
+Entry Wire Line
+	3115 2145 3215 2245
+Wire Wire Line
+	2590 2345 3115 2345
+Wire Wire Line
+	3315 2095 3840 2095
+Wire Wire Line
+	2590 1845 3115 1845
+Wire Wire Line
+	2590 2045 3115 2045
+Wire Wire Line
+	2590 2245 3115 2245
+Wire Wire Line
+	2590 1945 3115 1945
+Wire Wire Line
+	2590 2445 3115 2445
+Wire Wire Line
+	2590 2145 3115 2145
+Wire Wire Line
+	2590 2945 3115 2945
+Text Label 2715 2945 0    50   ~ 0
+FT_CONF5
+Wire Wire Line
+	2590 4245 3115 4245
+Wire Wire Line
+	2590 4345 3115 4345
+Wire Wire Line
+	2590 4645 3115 4645
+Wire Wire Line
+	2590 4745 3115 4745
+Wire Wire Line
+	2590 4845 3115 4845
+Wire Wire Line
+	2590 4945 3115 4945
+Wire Wire Line
+	2590 2745 3115 2745
+Text Label 2715 2745 0    50   ~ 0
+CLK_1
+Text Label 2665 4345 0    50   ~ 0
+FT_CONF0
+Text Label 2715 4945 0    50   ~ 0
+FT_CONF1
+Text Label 2665 4245 0    50   ~ 0
+FT_CONF2
+Text Label 2715 4845 0    50   ~ 0
+FT_CONF3
+Text Label 2715 4745 0    50   ~ 0
+FT_CONF6
+Text Label 2715 4645 0    50   ~ 0
+FT_CONF4
+$Comp
+L LogAn:IC_ASEM1_100MHZ_3.2_2.5 IC702
+U 1 1 5EA60687
+P 6995 5595
+F 0 "IC702" H 7395 6070 50  0000 C CNN
+F 1 "IC_ASEM1_100MHZ_3.2_2.5" H 7345 5745 50  0001 C CNN
+F 2 "LogAn:OSC_SMD_3225-4Pin_3.2x2.5mm" H 7345 5745 50  0001 C CNN
+F 3 "" H 7395 5795 50  0001 C CNN
+F 4 "100MHz" H 7395 5979 50  0000 C CNN "Value"
+	1    6995 5595
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7795 5345 8145 5345
+Wire Wire Line
+	7795 5545 7845 5545
+Wire Wire Line
+	6995 5345 6920 5345
+Wire Wire Line
+	6995 5545 6920 5545
+Wire Wire Line
+	6920 5545 6920 5345
+Connection ~ 6920 5345
+Wire Wire Line
+	6920 5345 6795 5345
+$Comp
+L LogAn:C_10n_0402_16V C702
+U 1 1 5EA759B1
+P 7395 5795
+F 0 "C702" H 7420 5920 50  0000 C CNN
+F 1 "C_10n_0402_16V" H 7420 5705 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 7420 5880 50  0001 C CNN
+F 3 "" H 7420 5880 50  0001 C CNN
+F 4 "10n" H 7420 5695 50  0000 C CNN "Value"
+	1    7395 5795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7495 5795 7845 5795
+Wire Wire Line
+	7845 5795 7845 5545
+Connection ~ 7845 5545
+Wire Wire Line
+	6920 5545 6920 5795
+Wire Wire Line
+	6920 5795 7345 5795
+Connection ~ 6920 5545
+Text HLabel 6795 5345 0    50   Input ~ 0
+VCC3V
+Text Label 7995 5345 0    50   ~ 0
+CLK_2
+Text HLabel 10735 1020 2    50   BiDi ~ 0
+DIO_[0..31]
+Wire Wire Line
+	10010 2120 10535 2120
+Wire Wire Line
+	10010 1220 10535 1220
+Wire Wire Line
+	10010 1320 10535 1320
+Wire Wire Line
+	10010 1420 10535 1420
+Wire Wire Line
+	10010 1520 10535 1520
+Wire Wire Line
+	10010 1620 10535 1620
+Wire Wire Line
+	10010 1720 10535 1720
+Wire Wire Line
+	10010 1820 10535 1820
+Wire Wire Line
+	10010 1920 10535 1920
+Wire Wire Line
+	10010 2020 10535 2020
+Wire Wire Line
+	10010 2320 10535 2320
+Wire Wire Line
+	10010 2420 10535 2420
+Wire Wire Line
+	10010 2520 10535 2520
+Wire Wire Line
+	10010 2620 10535 2620
+Wire Wire Line
+	10010 2720 10535 2720
+Wire Wire Line
+	10010 2820 10535 2820
+Wire Wire Line
+	10010 2920 10535 2920
+Wire Wire Line
+	10010 3020 10535 3020
+Wire Wire Line
+	10010 3120 10535 3120
+Wire Wire Line
+	10010 3220 10535 3220
+Wire Wire Line
+	10010 4020 10535 4020
+Wire Wire Line
+	10010 4520 10535 4520
+Wire Wire Line
+	10010 4620 10535 4620
+Wire Wire Line
+	10010 4720 10535 4720
+Wire Wire Line
+	10010 5520 10535 5520
+Wire Wire Line
+	10010 5620 10535 5620
+Wire Wire Line
+	10010 5720 10535 5720
+Wire Wire Line
+	10010 3920 10535 3920
+Wire Wire Line
+	10010 3320 10535 3320
+Entry Wire Line
+	10535 5420 10635 5520
+Entry Wire Line
+	10535 5620 10635 5720
+Entry Wire Line
+	10535 5520 10635 5620
+Entry Wire Line
+	10535 4620 10635 4720
+Entry Wire Line
+	10535 4520 10635 4620
+Entry Wire Line
+	10535 4020 10635 4120
+Entry Wire Line
+	10535 3920 10635 4020
+Entry Wire Line
+	10535 3220 10635 3320
+Entry Wire Line
+	10535 3120 10635 3220
+Entry Wire Line
+	10535 3020 10635 3120
+Entry Wire Line
+	10535 2920 10635 3020
+Entry Wire Line
+	10535 2820 10635 2920
+Entry Wire Line
+	10535 2720 10635 2820
+Entry Wire Line
+	10535 2620 10635 2720
+Entry Wire Line
+	10535 2420 10635 2520
+Entry Wire Line
+	10535 2320 10635 2420
+Entry Wire Line
+	10535 1920 10635 2020
+Entry Wire Line
+	10535 1820 10635 1920
+Entry Wire Line
+	10535 1720 10635 1820
+Entry Wire Line
+	10535 1620 10635 1720
+Entry Wire Line
+	10535 1520 10635 1620
+Entry Wire Line
+	10535 1420 10635 1520
+Entry Wire Line
+	10535 1320 10635 1420
+Entry Wire Line
+	10535 1220 10635 1320
+Entry Wire Line
+	10535 2120 10635 2220
+Text Label 10185 5720 0    50   ~ 0
+DIO_0
+Text Label 10185 5620 0    50   ~ 0
+DIO_1
+Text Label 10185 5520 0    50   ~ 0
+DIO_2
+Text Label 10185 5420 0    50   ~ 0
+DIO_3
+Text Label 10185 5320 0    50   ~ 0
+DIO_4
+Text Label 10185 5220 0    50   ~ 0
+DIO_5
+Text Label 10185 4720 0    50   ~ 0
+DIO_6
+Text Label 10185 4620 0    50   ~ 0
+DIO_7
+Text Label 10185 4120 0    50   ~ 0
+DIO_8
+Text Label 10185 4520 0    50   ~ 0
+DIO_9
+Text Label 10210 3120 0    50   ~ 0
+DIO_10
+Text Label 10185 4020 0    50   ~ 0
+DIO_11
+Text Label 10210 3320 0    50   ~ 0
+DIO_12
+Text Label 10185 3920 0    50   ~ 0
+DIO_13
+Text Label 10210 2820 0    50   ~ 0
+DIO_14
+Text Label 10210 2720 0    50   ~ 0
+DIO_15
+Text Label 10210 2520 0    50   ~ 0
+DIO_16
+Text Label 10210 2420 0    50   ~ 0
+DIO_18
+Text Label 10210 1820 0    50   ~ 0
+DIO_19
+Text Label 10210 2920 0    50   ~ 0
+DIO_20
+Text Label 10210 2620 0    50   ~ 0
+DIO_22
+Text Label 10210 1620 0    50   ~ 0
+DIO_23
+Text Label 10210 3420 0    50   ~ 0
+DIO_24
+Text Label 10210 3520 0    50   ~ 0
+DIO_25
+Text Label 10210 1420 0    50   ~ 0
+DIO_26
+Text Label 10210 2020 0    50   ~ 0
+DIO_28
+Text Label 10210 2120 0    50   ~ 0
+DIO_29
+Wire Bus Line
+	10735 1020 10635 1020
+Text Label 2715 1845 0    50   ~ 0
+FT_DATA0
+Text Label 2715 2045 0    50   ~ 0
+FT_DATA1
+Text Label 2715 1945 0    50   ~ 0
+FT_DATA2
+Text Label 2715 2245 0    50   ~ 0
+FT_DATA3
+Text Label 2715 2145 0    50   ~ 0
+FT_DATA4
+Text Label 2715 2445 0    50   ~ 0
+FT_DATA5
+Text Label 3440 2095 0    50   ~ 0
+FT_DATA6
+Text Label 2715 2845 0    50   ~ 0
+FT_DATA7
+Text Label 5710 5120 0    50   ~ 0
+DDR3_A11
+Text Label 5710 5820 0    50   ~ 0
+DDR3_A13
+Text Label 5710 3820 0    50   ~ 0
+DDR3_CKE
+Text Label 6535 2295 0    50   ~ 0
+DDR3_CKE
+Text Label 5710 4720 0    50   ~ 0
+DDR3_nWE
+Text Label 6535 2895 0    50   ~ 0
+DDR3_nWE
+Text Label 6535 3170 0    50   ~ 0
+DDR3_BA1
+Text Label 5710 4220 0    50   ~ 0
+DDR3_BA1
+Entry Wire Line
+	6285 5720 6385 5820
+Entry Wire Line
+	6285 5520 6385 5620
+Entry Wire Line
+	6285 5820 6385 5920
+Wire Bus Line
+	6385 3695 6885 3695
+Entry Wire Line
+	6285 4920 6385 5020
+Entry Wire Line
+	6285 4820 6385 4920
+Entry Wire Line
+	6285 5620 6385 5720
+Entry Wire Line
+	6285 4620 6385 4720
+Entry Wire Line
+	6285 5920 6385 6020
+Entry Wire Line
+	6285 5020 6385 5120
+Entry Wire Line
+	6285 3920 6385 4020
+Entry Wire Line
+	6285 5420 6385 5520
+Entry Wire Line
+	6285 3720 6385 3820
+Entry Wire Line
+	6285 3620 6385 3720
+Entry Wire Line
+	6285 5120 6385 5220
+Text Label 5710 4020 0    50   ~ 0
+DDR3_nCAS
+Text Label 6535 2695 0    50   ~ 0
+DDR3_nCAS
+Text Label 6535 2795 0    50   ~ 0
+DDR3_nRAS
+Text Label 6535 3270 0    50   ~ 0
+DDR3_BA0
+Entry Wire Line
+	6285 4320 6385 4420
+Text Label 5710 4120 0    50   ~ 0
+DDR3_nRAS
+Text Label 5710 4520 0    50   ~ 0
+DDR3_BA0
+Text Label 6535 3070 0    50   ~ 0
+DDR3_BA2
+Text Label 5710 4420 0    50   ~ 0
+DDR3_BA2
+Wire Wire Line
+	6535 3270 7035 3270
+Wire Wire Line
+	6535 2795 7035 2795
+Wire Wire Line
+	6535 2895 7035 2895
+Wire Wire Line
+	6535 2295 7035 2295
+Wire Wire Line
+	6535 3170 7035 3170
+Wire Wire Line
+	6535 2695 7035 2695
+$Comp
+L LogAn:IC_XC7A15T_FTG256 IC201
+U 4 1 5E3E9BD8
+P 8410 6120
+F 0 "IC201" H 9217 11387 50  0000 C CNN
+F 1 "IC_XC7A15T_FTG256" H 9160 6070 50  0001 C CNN
+F 2 "LogAn:Xilinx_FTG256" H 8810 5970 50  0001 C CNN
+F 3 "" H 9010 6270 50  0001 C CNN
+F 4 "XC7A15T-FTG256" H 9217 11296 50  0000 C CNN "Value"
+	4    8410 6120
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6285 1220 6385 1320
+Entry Wire Line
+	6285 2420 6385 2520
+Text Label 5710 1620 0    50   ~ 0
+DDR3_DQS1_P
+Text Label 5710 1720 0    50   ~ 0
+DDR3_DQS1_N
+Text Label 5710 1820 0    50   ~ 0
+DDR3_DM1
+Text Label 5710 1320 0    50   ~ 0
+DDR3_DQ8
+Text Label 5710 2020 0    50   ~ 0
+DDR3_DQ13
+Text Label 5710 2120 0    50   ~ 0
+DDR3_DQ15
+Text Label 5710 2220 0    50   ~ 0
+DDR3_DQ11
+Text Label 5710 2620 0    50   ~ 0
+DDR3_DQ7
+Text Label 5710 3320 0    50   ~ 0
+DDR3_DQ6
+Text Label 5710 2520 0    50   ~ 0
+DDR3_DM0
+Entry Wire Line
+	6285 3320 6385 3420
+Text Label 5710 1520 0    50   ~ 0
+DDR3_DQ10
+Entry Wire Line
+	6285 1920 6385 2020
+Text Label 5710 1220 0    50   ~ 0
+DDR3_DQ14
+Text Label 5710 1920 0    50   ~ 0
+DDR3_DQ9
+Text Label 5710 3520 0    50   ~ 0
+DDR3_DQ3
+Wire Wire Line
+	6535 1870 7110 1870
+Entry Wire Line
+	6285 2620 6385 2720
+Text Label 5710 3120 0    50   ~ 0
+DDR3_DQ1
+Text Label 5710 2420 0    50   ~ 0
+DDR3_DQ2
+Text Label 5710 3220 0    50   ~ 0
+DDR3_DQ0
+Text Label 5710 2920 0    50   ~ 0
+DDR3_DQS0_N
+Text Label 5710 2820 0    50   ~ 0
+DDR3_DQS0_P
+Text Label 5710 3020 0    50   ~ 0
+DDR3_DQ5
+Text Label 5710 1420 0    50   ~ 0
+DDR3_DQ12
+Text Label 5710 2720 0    50   ~ 0
+DDR3_DQ4
+Entry Wire Line
+	6285 1420 6385 1520
+Entry Wire Line
+	6285 2120 6385 2220
+Text Label 5710 5920 0    50   ~ 0
+DDR3_A5
+Wire Wire Line
+	5660 5920 6285 5920
+Wire Wire Line
+	5660 5820 6285 5820
+Wire Wire Line
+	5660 5720 6285 5720
+Wire Wire Line
+	5660 5620 6285 5620
+Wire Wire Line
+	5660 5520 6285 5520
+Wire Wire Line
+	5660 5420 6285 5420
+Wire Wire Line
+	5660 5320 6285 5320
+Wire Wire Line
+	5660 5220 6285 5220
+Wire Wire Line
+	5660 5120 6285 5120
+Wire Wire Line
+	5660 5020 6285 5020
+Wire Wire Line
+	5660 4920 6285 4920
+Wire Wire Line
+	5660 4820 6285 4820
+Wire Wire Line
+	5660 4720 6285 4720
+Wire Wire Line
+	5660 4620 6285 4620
+Wire Wire Line
+	5660 4520 6285 4520
+Wire Wire Line
+	5660 4420 6285 4420
+Wire Wire Line
+	5660 4320 6285 4320
+Wire Wire Line
+	5660 4220 6285 4220
+Wire Wire Line
+	5660 4120 6285 4120
+Wire Wire Line
+	5660 4020 6285 4020
+Wire Wire Line
+	5660 3920 6285 3920
+Wire Wire Line
+	5660 3820 6285 3820
+Wire Wire Line
+	5660 3720 6285 3720
+Wire Wire Line
+	5660 3620 6285 3620
+Wire Wire Line
+	5660 3520 6285 3520
+Wire Wire Line
+	5660 3320 6285 3320
+Wire Wire Line
+	5660 3220 6285 3220
+Wire Wire Line
+	5660 3120 6285 3120
+Wire Wire Line
+	5660 3020 6285 3020
+Wire Wire Line
+	5660 2920 6285 2920
+Wire Wire Line
+	5660 2820 6285 2820
+Wire Wire Line
+	5660 2720 6285 2720
+Wire Wire Line
+	5660 2620 6285 2620
+Wire Wire Line
+	5660 2520 6285 2520
+Wire Wire Line
+	5660 2420 6285 2420
+Wire Wire Line
+	5660 2220 6285 2220
+Wire Wire Line
+	5660 2120 6285 2120
+Wire Wire Line
+	5660 2020 6285 2020
+Wire Wire Line
+	5660 1920 6285 1920
+Wire Wire Line
+	5660 1820 6285 1820
+Wire Wire Line
+	5660 1720 6285 1720
+Wire Wire Line
+	5660 1620 6285 1620
+Wire Wire Line
+	5660 1520 6285 1520
+Wire Wire Line
+	5660 1420 6285 1420
+Wire Wire Line
+	5660 1320 6285 1320
+Wire Wire Line
+	5660 1220 6285 1220
+Wire Wire Line
+	5660 1120 6835 1120
+Text Label 5710 3720 0    50   ~ 0
+DDR3_A12
+$Comp
+L LogAn:IC_XC7A15T_FTG256 IC201
+U 2 1 5E3DBE44
+P 4060 6120
+F 0 "IC201" H 4867 11387 50  0000 C CNN
+F 1 "IC_XC7A15T_FTG256" H 4810 6070 50  0001 C CNN
+F 2 "LogAn:Xilinx_FTG256" H 4460 5970 50  0001 C CNN
+F 3 "" H 4660 6270 50  0001 C CNN
+F 4 "XC7A15T-FTG256" H 4867 11296 50  0000 C CNN "Value"
+	2    4060 6120
+	1    0    0    -1  
+$EndComp
+Text Label 5710 5720 0    50   ~ 0
+DDR3_A0
+Wire Wire Line
+	5660 6020 6210 6020
+Wire Wire Line
+	6210 6020 6210 6120
+Wire Wire Line
+	6210 6120 6385 6120
+$Comp
+L LogAn:IC_ASEM1_100MHZ_3.2_2.5 IC701
+U 1 1 5E6A9AF0
+P 6995 4620
+F 0 "IC701" H 7395 5095 50  0000 C CNN
+F 1 "IC_ASEM1_100MHZ_3.2_2.5" H 7345 4770 50  0001 C CNN
+F 2 "LogAn:OSC_SMD_3225-4Pin_3.2x2.5mm" H 7345 4770 50  0001 C CNN
+F 3 "" H 7395 4820 50  0001 C CNN
+F 4 "100MHz" H 7395 5004 50  0000 C CNN "Value"
+	1    6995 4620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7795 4570 7845 4570
+Wire Wire Line
+	6995 4370 6920 4370
+Wire Wire Line
+	6995 4570 6920 4570
+Wire Wire Line
+	6920 4570 6920 4370
+Connection ~ 6920 4370
+Wire Wire Line
+	6920 4370 6795 4370
+$Comp
+L LogAn:C_10n_0402_16V C701
+U 1 1 5E6A9AFE
+P 7395 4820
+F 0 "C701" H 7420 4945 50  0000 C CNN
+F 1 "C_10n_0402_16V" H 7420 4730 50  0001 C CNN
+F 2 "LogAn:C_0402_1005Metric" H 7420 4905 50  0001 C CNN
+F 3 "" H 7420 4905 50  0001 C CNN
+F 4 "10n" H 7420 4720 50  0000 C CNN "Value"
+	1    7395 4820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7495 4820 7845 4820
+Wire Wire Line
+	7845 4820 7845 4570
+Connection ~ 7845 4570
+Wire Wire Line
+	6920 4570 6920 4820
+Wire Wire Line
+	6920 4820 7345 4820
+Connection ~ 6920 4570
+Text HLabel 6795 4370 0    50   Input ~ 0
+VCC3V
+Wire Wire Line
+	2590 3145 3115 3145
+Text Label 2715 3145 0    50   ~ 0
+CLK_2
+Text Label 10210 1220 0    50   ~ 0
+DIO_30
+Text Label 10210 1320 0    50   ~ 0
+DIO_31
+Text Label 10210 1520 0    50   ~ 0
+DIO_27
+Entry Wire Line
+	10535 2020 10635 2120
+Wire Wire Line
+	10010 3520 10535 3520
+Wire Wire Line
+	10010 4120 10535 4120
+Wire Wire Line
+	10010 5220 10535 5220
+Wire Wire Line
+	10010 5320 10535 5320
+Wire Wire Line
+	10010 5420 10535 5420
+Entry Wire Line
+	10535 5320 10635 5420
+Entry Wire Line
+	10535 5220 10635 5320
+Entry Wire Line
+	10535 4120 10635 4220
+Entry Wire Line
+	10535 3520 10635 3620
+Entry Wire Line
+	10535 2520 10635 2620
+Text Label 10210 1920 0    50   ~ 0
+DIO_17
+Entry Wire Line
+	10535 4720 10635 4820
+Entry Wire Line
+	3115 2445 3215 2545
+Entry Wire Line
+	3115 2345 3215 2445
+Entry Wire Line
+	3215 1995 3315 2095
+Wire Wire Line
+	2590 2845 3115 2845
+Text Label 2715 2345 0    50   ~ 0
+FT_DATA6
+Wire Wire Line
+	2590 3045 3115 3045
+Text Label 2715 3045 0    50   ~ 0
+LED_FPGA
+$Comp
+L LogAn:R_1k_0402_5% R?
+U 1 1 5EAB1270
+P 7570 6600
+AR Path="/5E2B3315/5EAB1270" Ref="R?"  Part="1" 
+AR Path="/5E2C80C4/5EAB1270" Ref="R701"  Part="1" 
+F 0 "R701" H 7480 6465 50  0000 L CNN
+F 1 "R_1k_0402_5%" H 7595 6510 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 7470 6685 50  0001 C CNN
+F 3 "" H 7595 6685 50  0001 C CNN
+F 4 "1k" H 7540 6535 50  0000 L CNN "Value"
+	1    7570 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L LogAn:LED_Green_0603 LD?
+U 1 1 5EAB1277
+P 7320 6600
+AR Path="/5E2B3315/5EAB1277" Ref="LD?"  Part="1" 
+AR Path="/5E2C80C4/5EAB1277" Ref="LD701"  Part="1" 
+F 0 "LD701" H 7170 6785 50  0000 L CNN
+F 1 "LED_Green_0603" H 7280 6490 50  0001 C CNN
+F 2 "LogAn:LED_0603_1608Metric" H 7320 6775 50  0001 C CNN
+F 3 "" H 7270 6600 50  0001 C CNN
+F 4 "Green" H 7170 6495 50  0000 L CNN "Value"
+	1    7320 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6600 7720 6600
+Text Label 7760 6600 0    50   ~ 0
+LED_FPGA
+Wire Wire Line
+	7120 6600 6895 6600
+Text Label 6910 6600 0    50   ~ 0
+GND
+Wire Wire Line
+	2590 6345 2990 6345
+Wire Wire Line
+	2590 6945 2990 6945
+Wire Wire Line
+	2590 6245 2990 6245
+Text HLabel 2990 6245 2    50   Output ~ 0
+ADJ_EN
+Text HLabel 2990 6945 2    50   Output ~ 0
+TRIM_SCL
+Text HLabel 2990 6345 2    50   Output ~ 0
+TRIM_SDA
+Text Label 10210 1720 0    50   ~ 0
+DIO_21
+Entry Wire Line
+	10535 3320 10635 3420
+Entry Wire Line
+	10535 3420 10635 3520
+Wire Wire Line
+	10010 3420 10535 3420
+Entry Wire Line
+	10535 5720 10635 5820
+$Comp
+L LogAn:SW_B3U-1000PM-B SW701
+U 1 1 60895B11
+P 8965 6590
+AR Path="/5E2C80C4/60895B11" Ref="SW701"  Part="1" 
+AR Path="/60895B11" Ref="SW?"  Part="1" 
+F 0 "SW701" H 8965 6770 50  0000 C CNN
+F 1 "SW_B3U-1000PM-B" H 8690 6765 50  0001 C CNN
+F 2 "LogAn:SW_SPST_B3U-1000P-B" H 8965 6790 50  0001 C CNN
+F 3 "" H 8965 6790 50  0001 C CNN
+	1    8965 6590
+	1    0    0    -1  
+$EndComp
+Text Label 9620 6335 2    50   ~ 0
+USER_BTN
+Text Label 9815 6590 2    50   ~ 0
+GND
+Text Notes 8795 6705 0    50   ~ 0
+USER_BTN
+Wire Wire Line
+	9815 6590 9640 6590
+Wire Wire Line
+	10010 4820 10535 4820
+Text Label 10110 4820 0    50   ~ 0
+USER_BTN
+$Comp
+L LogAn:R_1k_0402_5% R?
+U 1 1 610083A0
+P 9490 6590
+AR Path="/5E2B3315/610083A0" Ref="R?"  Part="1" 
+AR Path="/5E2C80C4/610083A0" Ref="R702"  Part="1" 
+F 0 "R702" H 9400 6465 50  0000 L CNN
+F 1 "R_1k_0402_5%" H 9515 6500 50  0001 C CNN
+F 2 "LogAn:R_0402_1005Metric" H 9390 6675 50  0001 C CNN
+F 3 "" H 9515 6675 50  0001 C CNN
+F 4 "1k" H 9460 6530 50  0000 L CNN "Value"
+	1    9490 6590
+	-1   0    0    1   
+$EndComp
+Text HLabel 8720 6590 0    50   Input ~ 0
+VCC_IO
+Wire Wire Line
+	8720 6590 8765 6590
+Wire Wire Line
+	7845 5545 8020 5545
+Text HLabel 8020 5545 2    50   Input ~ 0
+GND
+Wire Wire Line
+	7845 4570 8020 4570
+Text HLabel 8020 4570 2    50   Input ~ 0
+GND
+Text Label 7995 4370 0    50   ~ 0
+CLK_1
+Wire Wire Line
+	7795 4370 8145 4370
+Wire Wire Line
+	9165 6590 9235 6590
+Wire Wire Line
+	9690 6335 9235 6335
+Wire Wire Line
+	9235 6335 9235 6590
+Connection ~ 9235 6590
+Wire Wire Line
+	9235 6590 9340 6590
+Wire Bus Line
+	3215 2920 3215 5070
+Wire Bus Line
+	3215 1770 3215 2570
+Wire Bus Line
+	6385 3695 6385 6045
+Wire Bus Line
+	6385 1245 6385 3620
+Wire Bus Line
+	10635 1020 10635 5845
+$EndSCHEMATC

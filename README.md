@@ -1,5 +1,5 @@
 # Logic_Analizer_PCB
-KiCad PCB project of Logic Analizer
+KiCad PCB project of Logic Analyzer
 
 ![Image](images/PCB3d.JPG)  
 ![Image](images/PCB3d2.JPG)   
